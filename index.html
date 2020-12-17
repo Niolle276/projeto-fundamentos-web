@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+	
+	<title>P2</title>
+	
+	<style type="text/css">
+	
+	body {
+	text-align:justify;
+	font-family:verdana; helvetica; arial;
+	background:##ffffff;
+	margin:50px;
+	}
+	
+	p.texto-principal {
+	font-size: 18px;
+	padding-right: 35%;
+	}
+	
+	p.more-link {
+	color: #ff266a;
+	font-weight: bold;
+	}
+	
+	figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    }
+
+    h1 {
+    color: #ff266a;
+	height: 100px;
+	padding-left: 4em;
+	font-size: 40px;
+	}
+	
+	h2 {
+	color: #ff266a;
+	padding-left: 5em;
+	font-size: 30px;
+	}
+	
+	form.formulario {
+    float: right;
+	width: 15em;
+	}
+	
+	ul.nav { 
+	margin:0; 
+	padding:5;
+	}
+	
+    ul.nav li {
+	list-style:none;	
+	display:inline;
+	}
+	
+	ul.nav li a.classex {
+	background:#ff266a;
+	color:#ffff;
+	}
+	
+	ul.nav a.classex:hover{
+	background:#999;
+	color:#000000;
+	border-color:#00f;
+	border-color:#000 #fafafa #fafafa #000;
+	}
+    
+	ul.nav a:hover{
+	background:#999;
+	color:#000000;
+	border-color:#00f;
+	border-color:#000 #fafafa #fafafa #000;
+	}
+	
+	ul.nav li a {
+	float:left;
+	border-right:0.1em solid #909090;
+	border-bottom:0.1em solid #909090;
+	border-left:0.1em solid #fff;
+	height: 4em;
+	width:8.0em;
+	font:0.68em  Verdana, Arial, Helvetica, 
+	sans-serif;
+	background:#f1f1f1;
+	color:#ff266a;
+	text-align:center;
+	padding:4  0.4em 0.4em  4;
+	text-decoration:none;
+	border-radius: 14%;
+	font-weight: bold;
+	}
+	
+	aside{
+	float:right;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 16em;
+    margin-top: -2.5em;
+	font-size: 18px;
+	}
+	
+	aside.ferramenta {
+	float:right;
+    position: relative;
+    right: 0;
+    top: 50%;
+    width: 12em;
+    margin-top: -7.0em;
+	font-size: 18px;
+    }
+	
+	aside ul li a {
+    color: #ff266a;
+    }
+	
+	fieldset{
+    background-color: #6d6d6d;
+    width:150px;
+    height:50px;
+	border-radius: 15px;
+	}
+	
+	footer{
+        bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+		}
+	
+    </style>
+	
+	<script>
+    document.write("<footer>Desenvolvido por Niolle Borba Nole Dias</footer>");
+	</script>
+	
+</head>
+
+<body>
+
+	<header>
+
+		<h1> HTML5 Tema </h1>
+		
+
+	</header> 
+	
+    <form class="formulario">
+	    <fieldset>
+		<input type="text" name="s" id="s" size="4" placeholder="Search..." value="" >
+		<input type="submit" value="Enviar" size="8">
+	    </fieldset>
+	</form> 
+	
+	<nav>
+	   <ul class="nav">
+       <li><a href="#na" class="classex">Home</a></li>
+       <li><a href="#nb">Sobre</a></li>
+       <li><a href="#nc">Contato</a></li>
+       </ul>
+	</nav>
+	
+	
+    <aside>
+		<h3 class="title">Títulos HTML5</h3>
+		
+		<ul>
+			<li><a href="#">Formulário</a></li>
+			<li><a href="#">Drag and Drop</a></li>
+			<li><a href="#">Canvas</a></li>
+			<li><a href="#">Áudio e vídeo</a></li>
+		</ul>
+	</aside> <br> <br> <br> <br> <br>
+	
+	<article>
+	
+			<h2> Pós Título </h2>
+			
+			
+         <figure>
+  	     <img src="imagemprova.gif" alt="imagemprova" title="imagemprova>
+  	     <figcaption> Legenda da imagem"</figcaption>
+         </figure>
+			
+	</article>
+
+	   
+		<div class="texto">
+			<p class = "texto-principal">
+				Muito longe, atrás das montanhas da palavra, 
+				muito longe dos países Vokalia e Consonantia, 
+				não viver os textos cegos. Separado em que vivem Bookmarksgrove à direita na costa da Semântica , 
+				um grande oceano idioma. Um pequeno rio chamado Duden flui por seu lugar e abastece-lo com o regelialia necessário. 
+				É um país paradisematic, em que partes torradas de frases voar em sua boca. <br> <br>
+			
+			    Mesmo o que aponta a todo-poderoso não tem controle sobre os textos cegos, é uma vida quase unorthographic. 
+				Um dia, no entanto, uma pequena linha de texto cego pelo nome de Lorem Ipsum decidiu deixar para o mundo distante da gramática.
+			</p>
+
+			<p class="more-link">Continue lendo...</a></p>
+		</div> 
+		
+    <div>
+	<aside class="ferramenta">
+		<h3 class="ferramenta-titulo">Ferramenta</h3>
+
+		<p>Mesmo o que aponta a todo-poderoso não tem controle sobre os textos cegos, é uma vida quase unorthographic.</p>
+		<p>Um dia, no entanto, uma pequena linha de texto cego pelo nome de Lorem Ipsum decidiu deixar para o mundo distante da gramática.</p>
+	</aside> 
+    </div> 
+	
+
+	<footer id="footer">
+	</footer> 
+
+</body>
+</html>
